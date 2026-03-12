@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Lívia 🤍</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@0,400;1,500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <style>
+        :root { --cor-texto: #333; --cor-destaque: #b5835a; }
+        body { margin: 0; padding: 0; font-family: 'Poppins', sans-serif; color: var(--cor-texto); background: linear-gradient(180deg, #ffffff 0%, #fff5f5 50%, #fdf2e9 100%); background-attachment: fixed; line-height: 1.8; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        section { min-height: 90vh; display: flex; flex-direction: column; justify-content: center; opacity: 0; transform: translateY(30px); transition: all 1s ease-out; }
+        section.visible { opacity: 1; transform: translateY(0); }
+        h1 { font-family: 'Dancing Script', cursive; font-size: 3.2rem; color: var(--cor-destaque); text-align: center; margin-bottom: 20px; }
+        p { font-family: 'Playfair Display', serif; font-size: 1.25rem; text-align: center; margin-bottom: 20px; white-space: pre-line; }
+        .btn-container { display: flex; justify-content: center; gap: 20px; margin-top: 40px; min-height: 150px; position: relative; }
+        button { padding: 15px 35px; border: none; border-radius: 50px; font-size: 1.1rem; cursor: pointer; transition: 0.3s; }
+        #btn-sim { background-color: #e29578; color: white; box-shadow: 0 4px 15px rgba(226, 149, 120, 0.3); }
+        #btn-nao { background-color: #ececec; color: #999; z-index: 10; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <section class="visible">
+        <h1>Lívia,</h1>
+        <p>Eu pensei muito antes de escrever isso. Mais do que eu imaginava que pensaria. Não porque é difícil falar de você… mas porque quando o sentimento e grande, parece que nenhuma palavra consegue explicar tudo.</p>
+    </section>
+    <section>
+        <p>Desde que você apareceu na minha vida, eu percebi que algumas coisas começaram a mudar dentro de mim. Não foi de uma vez, não foi algo que aconteceu de forma dramática. Foi aos poucos, de um jeito tranquilo… quase silencioso. E talvez por isso tenha sido tão especial.</p>
+    </section>
+    <section>
+        <p>Você foi chegando devagar, ocupando espaço sem pedir, sem forçar nada. E quando eu percebi, meus dias já estavam diferentes.
+        Hoje eu acordo e penso em você.
+        Durante o dia alguma coisa me lembra você.
+        E quando a gente se encontra, parece que o tempo fica diferente.</p>
+    </section>
+    <section>
+        <p>Eu gosto de ficar perto de você.
+        Gosto das nossas conversas, das nossas risadas, das nossas brincadeiras.
+        Gosto até daqueles momentos em que a gente não fala nada… e mesmo assim parece que tudo está exatamente onde deveria estar.</p>
+    </section>
+    <section>
+        <p>Tem algo em você que me acalma e, ao mesmo tempo, me desperta coisas que eu nunca imaginei sentir. Um jeito seu que me deixa leve, que me faz sorrir sem perceber.
+        As vezes eu fico te olhando e pensando no quanto eu fui sortuda por ter te encontrado. Porque no meio de tantas mudanças na minha vida, você apareceu… e de alguma forma tudo pareceu fazer mais sentido.</p>
+    </section>
+    <section>
+        <p>Você se tornou alguém muito importante pra mim. Muito mais do que eu imaginava que seria possível em tão pouco tempo.
+        E talvez uma das coisas mais bonitas nisso tudo é que com você tudo parece simples. Natural. Verdadeiro.
+        E isso, pra mim, vale muito.</p>
+    </section>
+    <section>
+        <p>Eu gosto de cuidar de você.
+        Gosto de te abraçar, de ficar perto, de ouvir sua voz, de dividir momentos simples que acabam se tornando memórias que eu guardo com carinho.
+        E quanto mais eu te conheço, mais eu tenho vontade de continuar conhecendo. De descobrir suas manias, suas histórias, suas risadas, suas versões… todas elas.</p>
+    </section>
+    <section>
+        <p>Eu não sei exatamente tudo que o futuro guarda pra gente. A vida tem um jeito curioso de surpreender a gente o tempo todo.
+        Mas eu sei de uma coisa com muita certeza:
+        eu quero continuar vivendo momentos ao seu lado enquanto a gente descobre isso.</p>
+    </section>
+    <section>
+        <p>Quero continuar rindo com você.
+        Quero continuar ficando perto de você.
+        Quero continuar sentindo esse carinho que cresce cada vez mais dentro de mim.</p>
+    </section>
+    <section>
+        <p>Talvez existam mil maneiras de pedir alguém em namoro.
+        Com flores.
+        Com alianças.
+        Com grandes surpresas.
+        E eu pensei em tudo isso.</p>
+    </section>
+    <section>
+        <p>Eu pensei em flores, alianças e um monte de coisas…
+        mas percebi que eu nem sei quais são suas flores favoritas ou se você gosta de alianças.
+        Então resolvi fazer do jeito que eu sei: com algo criado por mim.
+        Algo simples, mas sincero. Algo que vem de mim.</p>
+    </section>
+    <section>
+        <p>Porque no fim das contas, o que mais importa aqui não é o gesto… é o que eu sinto.
+        E o que eu sinto é que você se tornou muito especial pra mim.
+        Você trouxe leveza pra minha vida.
+        Trouxe carinho.
+        Trouxe uma felicidade tranquila, daquelas que aparecem nas pequenas coisas.
+        E eu sou muito grata por ter te encontrado.</p>
+    </section>
+    <section id="pedido-final">
+        <p>Isso aqui não é uma pressão.
+        Não é um pedido cheio de expectativas.
+        E apenas um sentimento, um sentimento que eu nunca imaginei que poderia sentir. 
+        Então, eu queria te perguntar uma coisa...</p>
+        <h1>Você quer namorar comigo?</h1>
+        <div class="btn-container">
+            <button id="btn-sim">SIM! ❤️</button>
+            <button id="btn-nao">Não</button>
+        </div>
+    </section>
+</div>
+<script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('section').forEach(section => observer.observe(section));
+    document.getElementById('btn-sim').addEventListener('click', () => {
+        confetti({ particleCount: 150, spread: 70, origin: { y: 0.6 }, colors: ['#e29578', '#b5835a', '#ffffff'] });
+        setTimeout(() => { alert("obrigada por ser você ❤️"); }, 500);
+    });
+    const btnNao = document.getElementById('btn-nao');
+    const fugir = () => {
+        const x = Math.random() * (window.innerWidth - btnNao.offsetWidth);
+        const y = Math.random() * (window.innerHeight - btnNao.offsetHeight);
+        btnNao.style.position = 'fixed'; btnNao.style.left = `${x}px`; btnNao.style.top = `${y}px`;
+    };
+    btnNao.addEventListener('mouseover', fugir);
+    btnNao.addEventListener('touchstart', (e) => { e.preventDefault(); fugir(); });
+</script>
+</body>
+</html>
